@@ -7,6 +7,7 @@
 
 body {
     font-family: "Cormorant Garamond", serif;
+    color: #0f0413;
     /* max-width: 1240px;
     margin: auto; */
 }
@@ -228,23 +229,19 @@ p {
 h1 {
     font-size: 2.986rem;
     font-weight: 600;
-    color: #202023;
 }
 
 h2 {
     font-size: 2.488rem;
     font-weight: 500;
-    color: #202023;
 
 }
 
 h3 {
-    color: #202023;
     font-size: 2.074rem;
 }
 
 h6 {
-    color: #202023;
     font-size: 1.2rem;
 }
 
@@ -278,11 +275,13 @@ h6 {
 }
 
 .directions {
-    margin: 1rem 0;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
+
+.directions .title {}
 
 .directions iframe {
     width: 100%;
@@ -321,7 +320,7 @@ h6 {
     }
 }
 
-img {
+/* img {
     view-timeline-name: --image;
     view-timeline-axis: block;
 
@@ -341,7 +340,7 @@ p {
     animation-timeline: --text;
     animation-name: fade;
     animation-range: entry 0% cover 40%;
-}
+} */
 
 /* @keyframes show {
     from {
