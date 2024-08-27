@@ -109,11 +109,17 @@ p {
     align-items: center;
     max-width: 310px;
     margin: auto;
+    text-align: center;
 }
 
 .title-box .title {
     font-weight: 500;
     font-size: 2rem;
+    text-align: center;
+}
+
+.title-box span {
+    font-size: 1.2rem;
 }
 
 .title-box__imagen {
